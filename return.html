@@ -1,0 +1,30 @@
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="library1.css">
+  <title>return</title>
+</head>
+
+<body class="body">
+  <div class="topnav" id="myTopnav">
+  <a href="home.html" >Home</a>
+  <a href="subjects.html">Subjects</a>
+  <a href="contact.html">Contact us</a>
+  <a href="about.html">Profile</a>
+  <a href="return.html" class="active">Return</a>
+   <a href="login.html" style="float:right">Logout</a>
+</div>
+    <div class="container">
+      <h class="heading">Books To Return:</h>
+      <p id="rbook" class="textf" >
+      
+      </p>
+    </div>
+    <script type="text/javascript">
+      document.getElementById("rbook").innerHTML =localStorage.getItem("return1");
+    </script>
+ <script src="library1.js"></script>
+</body>
+
+</html>
+

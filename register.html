@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Registration</title>
+   <link rel="stylesheet" type="text/css" href="library1.css">
+</head>
+
+<body class="body1">
+  <div class="container">
+    <h class="heading">Registration Form</h><br><br>
+<form>
+  <label class="textf">FirstName:</label><input type="text" id="first"><br>
+    <label class="textf">LastName:</label><input type="text" id="last"><br>
+    <label class="textf">E-Mail:</label><input type="text" id="mail"placeholder="ex:abc@gmail.com"><br>
+    <label class="textf">Date of Birth:</label><input type="text" id="dob" placeholder="dd/mm/yyyy"><br>
+    <label class="textf">Mobile Number:</label><input type="text" id="phno"><br>
+    <label style="font-size:30px ">Courses:</label>
+    <select name="courses" id="course" class="selectc">
+    <option value="--select--">--select--</option>
+    <option value="CSE">CSE</option>
+    <option value="ECE">ECE</option>
+    <option value="IT">IT</option>
+    <option value="MEC">MEC</option>
+    <option value="EEE">EEE</option>
+  </select><br>
+    <label class="textf">Address:</label><textarea rows=10 cols=20 placeholder="enter your address here" id="address"></textarea><br>
+    <label class="textf">Username:</label><input type="text" id="user"><br>
+    <label class="textf">Password:</label><input type="password"  id="password"/><br>
+  <input type="button" onclick=validate() value="submit" id="zoom">
+  <input type="reset" value="clear" id="zoom">
+</form>
+<a href="login.html" class="hreflo">Login Page</a>
+</div>
+<script src="library1.js"></script>
+
+</body>
+
+</html>
